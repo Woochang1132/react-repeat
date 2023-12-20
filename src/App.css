@@ -1,4 +1,4 @@
-.nature{
+.profile{
   width: 300px;
   text-align: center;
   padding: 1rem;
@@ -7,9 +7,18 @@
   -webkit-box-shadow: 12px 9px 5px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 12px 9px 5px 0px rgba(0,0,0,0.75);
   border-radius: 20px;
+  position: relative;
 }
 
-.nature__img{
+.new{
+  position: absolute;
+  right: 70px;
+  top: 20px;
+  background-color: beige;
+  font-weight: 600;
+}
+
+.profile__img{
   width: 200px;
   height: 200px;
   border-radius: 100%;
