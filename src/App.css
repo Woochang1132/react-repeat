@@ -7,13 +7,18 @@
   -webkit-box-shadow: 12px 9px 5px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 12px 9px 5px 0px rgba(0,0,0,0.75);
   border-radius: 20px;
+}
+.avatar{
   position: relative;
+  width: 200px;
+  height: 200px;
+  margin: auto;
 }
 
 .new{
   position: absolute;
-  right: 70px;
-  top: 20px;
+  left: 90%;
+  top: 15%;
   background-color: beige;
   font-weight: 600;
 }
