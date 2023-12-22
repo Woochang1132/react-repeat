@@ -25,8 +25,10 @@ export default function AppMentorsImmer() {
     const handleDelete = () => {
         const name = prompt(`삭제할 멘토의 이름을 작성해주세요`);
         updatePerson((person) => {
-          const index = person.mentors.findIndex((member) => member.name === name);
-            person.mentors.splice(index,1);
+            return {
+              ...person,
+              mentors: person.mentors.filter((mentor) => mentor.name !== name)
+            }
         })
     }
     
