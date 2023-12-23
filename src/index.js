@@ -5,10 +5,11 @@ import App from "./App.js";
 import AppForm from "./AppForm.jsx";
 import AppMentors from "./AppMentors.jsx";
 import AppMentorsImmer from "./AppMentorsImmer.jsx";
+import Products from "./components/Products.jsx";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <AppMentorsImmer />
+    <Products />
   </React.StrictMode>
 );
