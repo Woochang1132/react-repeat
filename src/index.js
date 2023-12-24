@@ -6,10 +6,11 @@ import AppForm from "./AppForm.jsx";
 import AppMentors from "./AppMentors.jsx";
 import AppMentorsImmer from "./AppMentorsImmer.jsx";
 import Products from "./components/Products.jsx";
+import AddProducts from "./AddProducts.jsx";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Products />
+    <AddProducts />
   </React.StrictMode>
 );
